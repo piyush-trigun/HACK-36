@@ -1,0 +1,59 @@
+*{
+	box-sizing: border-box;
+}
+
+.jumbotron  h1{
+	text-align: center;
+}
+
+@media only screen and (max-width: 700px){
+    .responsive {
+        width: 49.99999%;
+        margin: 6px 0;
+    }
+}
+
+@media only screen and (max-width: 500px){
+    .responsive {
+        width: 100%;
+    }
+}
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+#submitprop{
+	margin-top: 10px;
+	background: linear-gradient(to right, #3ebcd6 0%, #d13038 100%);
+	color: white;
+	float: left;
+}
+
+#submitprop2{
+	margin-top: 10px;
+	background: linear-gradient(to right, #3ebcd6 0%, #d13038 100%);
+	color: white;
+	float: right;
+}
+
+#userinfo{
+	height: 60px;
+	background-color: #4CAF50;
+}
+
+#userinfo ul{
+	list-style: none;
+	font-family: 'Raleway',sans-serif;
+	/*margin-top: 10px;*/
+	color: white;
+}
+
+#userinfo ul li:first-child{
+	float: left;
+	margin-left: 20px;
+	padding-right: 50%;
+}
+
+
